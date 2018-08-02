@@ -1,5 +1,10 @@
-<!-- view/devise/sessions/new.html.erb-->
-<!-- Main page Before Login-->
+<!-- 
+******************************************
+ view/devise/sessions/new.html.erb            
+ Main page Before Login                  
+
+*****************************************-->
+
 <div class="container">
 <!-- 로고 -->
 
@@ -34,6 +39,7 @@
     
       <div class="actions">
         <%= f.submit "Log in" %>
+        <%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %>
       </div>
     <% end %>
     

@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# facebook key, secret 
+gem 'figaro'
+# facebook login
+gem 'omniauth-facebook'
 # bootstrap design
 gem 'bootstrap-sass', '~> 3.3.7'
 

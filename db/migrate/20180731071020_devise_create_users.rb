@@ -22,7 +22,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
       t.string   :last_sign_in_ip
       
       # Added Field
-      t.string :name
+
       
       ## Confirmable
       # t.string   :confirmation_token
